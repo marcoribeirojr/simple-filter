@@ -7,7 +7,7 @@ const filter = arg => {
   }
   let result = [];
   result = arg.filter(data => {
-    if (data[data.length -1] === true) return data
+    if (data[data.length -1]) return data
   })
   return result
 }

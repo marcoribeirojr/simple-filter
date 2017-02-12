@@ -4,7 +4,7 @@
   "description": "A simple data filter using Vanilla Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage --watch"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "testEnvironment": "node",
     "collectCoverageFrom": [
       "**/*.js",
+      "!**/index.js",
       "!**/node_modules/**",
       "!**/coverage/**"
     ],

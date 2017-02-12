@@ -1,0 +1,45 @@
+{
+  "name": "simple-filter",
+  "version": "1.0.0",
+  "description": "A simple data filter using Vanilla Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "watch:test" : "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcoribeirojr/simple-filter.git"
+  },
+  "keywords": [
+    "data",
+    "filter",
+    "javascript",
+    "vanilla"
+  ],
+  "author": "Marco Ribeiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcoribeirojr/simple-filter/issues"
+  },
+  "homepage": "https://github.com/marcoribeirojr/simple-filter#readme",
+  "devDependencies": {
+    "jest-cli": "^18.1.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "**/*.js",
+      "!**/node_modules/**",
+      "!**/coverage/**"
+    ],
+    "coverageThreshold" : {
+      "global" : {
+        "branches" : 100,
+        "functions" : 100,
+        "lines" : 100,
+        "statements" : 100
+      }
+    }
+  }
+}

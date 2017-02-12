@@ -4,8 +4,7 @@
   "description": "A simple data filter using Vanilla Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage",
-    "watch:test" : "jest --watch"
+    "test": "jest --coverage --watch"
   },
   "repository": {
     "type": "git",

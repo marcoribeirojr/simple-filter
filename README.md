@@ -24,5 +24,5 @@ Clone o projeto:
 ## Dev Dependências
 - jest-cli
 
-## Licensa
+## Licença
 MIT

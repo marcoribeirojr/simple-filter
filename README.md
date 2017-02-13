@@ -12,6 +12,10 @@ Clone o projeto:
 
 `git clone https://github.com/marcoribeirojr/simple-filter.git`
 
+Instale
+
+`npm install`
+
 ## Executando um Use Case
 `node index.js`
 
